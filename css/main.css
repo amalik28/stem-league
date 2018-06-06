@@ -14,7 +14,7 @@
     /* =Preloader
     /* =Header
     /* =Full Width Slider
-    /* =Architecure Slider 
+    /* =Architecure Slider
     /* =Menu right
     /* =Home Content
     /* =Architecture Content
@@ -38,7 +38,7 @@
     font-style: normal;
 }
 @font-face {
-    font-family: 'azedolight';
+    font-family: 'Asap', sans-serif;
     src: url('../fonts/azedo-light-webfont.eot');
     src: url('../fonts/azedo-light-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/azedo-light-webfont.woff2') format('woff2'), url('../fonts/azedo-light-webfont.woff') format('woff'), url('../fonts/azedo-light-webfont.ttf') format('truetype'), url('../fonts/azedo-light-webfont.svg#azedolight') format('svg');
     font-weight: normal;
@@ -91,7 +91,7 @@ body {
 }
 :-moz-placeholder {
     /* Firefox 18- */
-    
+
     color: #787878;
     font-size: 14px;
     letter-spacing: 1pt;
@@ -99,7 +99,7 @@ body {
 }
 ::-moz-placeholder {
     /* Firefox 19+ */
-    
+
     color: #787878;
     font-size: 14px;
     letter-spacing: 1pt;
@@ -162,6 +162,9 @@ h1 {
     font-size: 24px;
     font-weight: bold;
 }
+h01 {
+    font-size: 70px;
+    font-weight: bold;}
 h2 {
     font-size: 22px;
 }
@@ -183,7 +186,7 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: 'Lekton', sans-serif;
+    font-family: 'Asap', sans-serif;
     letter-spacing: 1.3pt;
     color: #111111;
     clear: both;
@@ -494,12 +497,12 @@ a:hover>span.site-name{
     letter-spacing: 8px;
 }
 .slider-description-inner h1 span {
-    font-family: 'azedolight';
+    font-family: 'Playfair Display', serif;
     background: #7beec7;
     padding: 22px;
     font-weight: 100;
     margin-left: 10px;
-    line-height: 80px;
+    line-height: 40px;
 }
 .cd-intro {
     float: left;
@@ -841,7 +844,7 @@ svg {
     letter-spacing: 4.5pt;
 }
 span.border-text {
-    font-family: 'azedolight';
+    font-family: 'Asap', sans-serif;
     font-weight: 100;
     color: #fff;
     border: 2px solid #fff;
@@ -858,7 +861,7 @@ span.border-text {
     font-weight: 400;
 }
 
-/* =Architecure Slider 
+/* =Architecure Slider
 -------------------------------------------------------------- */
 .arch-slider {
     position: relative;
@@ -1027,7 +1030,7 @@ span.border-text {
     transition-delay: 0.15s;
 }
 .search-wrap.open input:focus {
-    border:0; 
+    border:0;
 }
 .search-wrap.open ::-webkit-input-placeholder {
     font-size: 12px;
@@ -1419,7 +1422,7 @@ ul.sub-menu li a {
 
 .menu-wrap-2 ul{
     padding:0;
-    margin-bottom:0; 
+    margin-bottom:0;
 }
 
 .menu-wrap-2 ul li{
@@ -2469,7 +2472,7 @@ ul.social-buttons li {
 }
 
 /*Play Button*/
-.playBut { 
+.playBut {
     display: inline-block;
     -webkit-transition: all 0.5s ease;
     background-color: rgba(255, 255, 255, 0.79);
